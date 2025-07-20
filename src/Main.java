@@ -77,11 +77,14 @@ public class Main {
 //        int a = 5, b = 7;
 //        System.out.println(duplicate(a,b));
 //
-//        문제 8. 평균 구하는 메소드
-        float a = 11, b = 22;
-        System.out.println(average(a, b));
-    }
+////        문제 8. 평균 구하는 메소드
+//        float a = 11, b = 22;
+//        System.out.println(average(a, b));
+//        문제 9. 메소드 계산 클래스로 분리
+        float result = Calculator.average(1,3);
+        System.out.println(result);
 
+    }
     public static float average(float a, float b) {
         return (a + b) / 2;
     }
@@ -97,5 +100,4 @@ public class Main {
     public static int max (int a, int b) {
         return a > b ? a : b;
     }
-
 }
