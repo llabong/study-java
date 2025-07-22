@@ -15,13 +15,13 @@ public class Main {
 //        cat.eat();
 //        cat.speak();
 
-        Pet dog = new Dog();
-        Pet cat = new Cat();
+        Pet dog = new Dog("백구");
+        Pet cat = new Cat("나비");
 
         Animal[] animals = new Animal[3];
-        animals[0] = new Dog();
-        animals[1] = new Cat();
-        animals[2] = new Tiger();
+        animals[0] = new Dog("천구");
+        animals[1] = new Cat("나방");
+        animals[2] = new Tiger("돌");
 
         for(Animal animal: animals) {
             animal.walk();

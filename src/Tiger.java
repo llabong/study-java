@@ -1,4 +1,8 @@
 public class Tiger extends Animal {
+    public Tiger(String name) {
+        super(name);
+    }
+
     @Override
     public void walk() {
         System.out.println("호랑이랑 호랑호랑하게 걸어다닙니다.");

@@ -1,5 +1,9 @@
 public class Dog extends Animal implements Pet{
 
+    public Dog(String name) {
+        super(name);
+    }
+
     @Override
     public void walk() {
         System.out.println("강아지가 총총총총총~ 언니를 따라가요");
