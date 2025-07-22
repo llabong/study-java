@@ -1,3 +1,5 @@
+package practice_AIPC;
+
 public class Penguin extends Animal implements Swimmable{
     public Penguin(String name) {
         super(name);

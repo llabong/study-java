@@ -1,3 +1,5 @@
+package practice_AIPC;
+
 public abstract class Animal {
     String name;
 

@@ -1,3 +1,5 @@
+package practice_AIPC;
+
 public class Airplane implements Flyable{
     @Override
     public void fly() {

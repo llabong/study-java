@@ -1,3 +1,5 @@
+package practice_AIPC;
+
 public class Duck extends Animal implements Swimmable, Flyable {
     public Duck(String name) {
         super(name);

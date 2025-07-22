@@ -1,3 +1,5 @@
+package practice_AIPC;
+
 public class Zoo {
     public static void main(String[] args) {
         Animal[] animals = {
@@ -10,6 +12,5 @@ public class Zoo {
             animal.speak();
         }
 
-        System.out.println("------------");
     }
 }

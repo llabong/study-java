@@ -1,3 +1,5 @@
+package practice_AIPC;
+
 public class Cat extends Animal implements Pet {
     public Cat(String name) {
         super(name);

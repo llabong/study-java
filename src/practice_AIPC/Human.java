@@ -1,3 +1,5 @@
+package practice_AIPC;
+
 public class Human implements Walkable {
     @Override
     public void walk() {
