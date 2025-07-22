@@ -15,6 +15,9 @@ public class Main {
 //        cat.eat();
 //        cat.speak();
 
+        Pet dog = new Dog();
+        Pet cat = new Cat();
+
         Animal[] animals = new Animal[3];
         animals[0] = new Dog();
         animals[1] = new Cat();
@@ -25,6 +28,23 @@ public class Main {
             animal.eat();
             animal.speak();
             System.out.println("= = = = = = = = = =");
+        }
+
+        dog.play();
+        dog.beFriendly();
+        cat.play();
+        cat.beFriendly();
+
+        Flyable[] flyingThings = { new Bird(), new Airplane()};
+
+        for (Flyable thing: flyingThings) {
+            thing.fly();
+        }
+
+        Walkable[] walkableThings = { new Human(), new Robot()};
+
+        for (Walkable thing:  walkableThings) {
+            thing.walk();
         }
 
     }

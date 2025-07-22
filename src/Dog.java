@@ -1,4 +1,4 @@
-public class Dog extends Animal{
+public class Dog extends Animal implements Pet{
 
     @Override
     public void walk() {
@@ -13,5 +13,15 @@ public class Dog extends Animal{
     @Override
     public void speak() {
         System.out.println("멍멍!");
+    }
+
+    @Override
+    public void play() {
+        System.out.println("공놀이를 합니다!");
+    }
+
+    @Override
+    public void beFriendly() {
+        System.out.println("꼬리를 흔들며 반깁니다.");
     }
 }
